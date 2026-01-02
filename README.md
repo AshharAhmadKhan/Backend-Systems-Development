@@ -2,14 +2,13 @@
 
 This repository contains a collection of backend-focused applications developed during my Software Engineering Internship. These projects demonstrate the application of Object-Oriented Programming (OOP) principles, relational database management, and robust error handling in Java.
 
----
 
 ## 🏦 1. FinTrack: Secure Banking Engine
 *A robust banking simulator built to handle core financial operations with data persistence.*
 
 * **Core Functionality:** User account lifecycle management, secure deposit/withdrawal processing, and real-time ledger balance updates.
 * **Logic Focus:** Transaction atomicity (ensuring balance integrity) and strict input validation to prevent overdrafts.
-* **Technologies:** * **Language:** Java (JDK 11+)
+* **Technologies:**  **Language:** Java (JDK 11+)
     * **Database:** MySQL (Relational storage for accounts and transaction logs)
     * **Connectivity:** JDBC (Java Database Connectivity)
 
@@ -18,7 +17,7 @@ This repository contains a collection of backend-focused applications developed 
 
 * **Core Functionality:** Dynamic book cataloging, member registration, and automated check-in/check-out tracking.
 * **Logic Focus:** Managing complex relational data (mapping books to specific users) and implementing automated availability status toggling.
-* **Technologies:** * **Language:** Java
+* **Technologies:**  **Language:** Java
     * **Database:** MySQL (Normalized tables for Books, Members, and Transactions)
     * **Architecture:** Modular Class Design (DAO Pattern)
 
